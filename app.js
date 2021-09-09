@@ -53,6 +53,8 @@ app.post("/register", function(req, res){
   });
 });
 
+///////////////////////Checks username and password//////////////////
+
 app.post("/login", function(req, res){
   const username = req.body.username;
   const password = req.body.password;
